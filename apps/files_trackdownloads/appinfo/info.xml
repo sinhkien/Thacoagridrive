@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>files_trackdownloads</id>
+	<name>Activities for shared file downloads, visible to all admins</name>
+	<summary>Creates activities (visible to any administrator) for downloads of files that were shared with other users or a group.</summary>
+	<description>Creates activities (visible to any administrator) for downloads of files that were shared with other users or a group.</description>
+	<version>1.11.0</version>
+	<licence>AGPL</licence>
+	<author>Joas Schilling, Timo Kunze</author>
+	<namespace>FilesTrackDownloads</namespace>
+
+	<types>
+		<filesystem/>
+	</types>
+
+	<category>files</category>
+	<category>monitoring</category>
+
+	<website>https://github.com/timokunze/files_trackdownloads</website>
+	<bugs>https://github.com/timokunze/files_trackdownloads/issues</bugs>
+	<repository>https://github.com/timokunze/files_trackdownloads</repository>
+
+	<screenshot>https://raw.githubusercontent.com/TimoKunze/files_trackdownloads/master/docs/screenshot.png</screenshot>
+
+	<dependencies>
+		<nextcloud min-version="22" max-version="22" />
+	</dependencies>
+
+	<activity>
+		<settings>
+			<setting>OCA\FilesTrackDownloads\Activity\Setting</setting>
+		</settings>
+
+		<providers>
+			<provider>OCA\FilesTrackDownloads\Activity\Provider</provider>
+		</providers>
+	</activity>
+</info>

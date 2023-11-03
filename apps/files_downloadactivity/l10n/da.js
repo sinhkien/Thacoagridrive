@@ -1,0 +1,14 @@
+OC.L10N.register(
+    "files_downloadactivity",
+    {
+    "Downloaded by {actor} (via desktop)" : "Downloaded af {actor} (via computer)",
+    "Downloaded by {actor} (via app)" : "Downloaded af {actor} (via app)",
+    "Downloaded by {actor} (via browser)" : "Downloaded af {actor} (via browser)",
+    "Shared file {file} was downloaded by {actor} via the desktop client" : "Den delte fil {file} blev downloadet af {actor} via klienten",
+    "Shared file {file} was downloaded by {actor} via the mobile app" : "Den delte fil {file} blev downloadet af {actor} via mobil appen",
+    "Shared file {file} was downloaded by {actor} via the browser" : "Den delte fil {file} blev downloadet af {actor} via webbrowseren",
+    "A local shared file or folder was <strong>downloaded</strong>" : "En lokal delt fil eller mappe blev <strong>hentet</strong>",
+    "Activities for shared file downloads" : "Aktiviteter for delte fil downloads",
+    "Creates activities for downloads of files that were shared with other users or a group" : "Opretter aktiviteter for downloads af filer som blev delt med andre brugere eller en gruppe"
+},
+"nplurals=2; plural=(n != 1);");

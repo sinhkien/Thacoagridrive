@@ -1,0 +1,13 @@
+{ "translations": {
+    "minutes" : "minutes",
+    "days" : "days",
+    "Error" : "Error",
+    "Actions" : "Actions",
+    "Delete" : "Delete",
+    "Cancel" : "Cancel",
+    "Settings saved" : "Settings saved",
+    "Pending" : "Pending",
+    "Status" : "Status",
+    "Local" : "Local"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

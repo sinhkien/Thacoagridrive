@@ -1,0 +1,39 @@
+<?php
+$CONFIG = array (
+  'instanceid' => 'oceigx29tkx4',
+  'passwordsalt' => 'fZI8eo7VEAaE+qNGD4UT5X4ko85Oae',
+  'secret' => 'ECF7/Yg59ztz0+s5LU9CPsIp0URRRZjrxoCkqvL4lpijMBvs',
+  'trusted_domains' => 
+  array (
+    0 => 'testdrive.thacoagri.vn',
+  ),
+  'datadirectory' => '/home/nextcloud/data',
+  'dbtype' => 'mysql',
+  'version' => '27.0.2.1',
+  'overwrite.cli.url' => 'https://testdrive.thacoagri.vn',
+  'dbname' => 'db_nextcloud',
+  'dbhost' => '10.10.10.4',
+  'dbport' => '',
+  'dbtableprefix' => 'oc_',
+  'mysql.utf8mb4' => true,
+  'dbuser' => 'user_nextcloud',
+  'dbpassword' => 'thacoagri@2023',
+  'installed' => true,
+  'default_phone_region' => 'VN',
+  'app_install_overwrite' => 
+  array (
+    0 => 'files_trackdownloads',
+    1 => 'files_downloadactivity',
+    2 => 'customproperties',
+  ),
+  'mail_smtpmode' => 'smtp',
+  'mail_sendmailmode' => 'smtp',
+  'mail_from_address' => 'thacoagri.cntt.test1',
+  'mail_domain' => 'thagrico.vn',
+  'mail_smtphost' => 'mail.thaco.com.vn',
+  'mail_smtpauth' => 1,
+  'mail_smtpport' => '587',
+  'mail_smtpname' => 'thacoagri.cntt.test1',
+  'mail_smtppassword' => ' WCdN4I7@&CITF7Fea',
+  'mail_smtpsecure' => 'ssl',
+);

@@ -1,0 +1,27 @@
+OC.L10N.register(
+    "notes",
+    {
+    "Notes" : "Piezīmes",
+    "Error" : "Kļūda",
+    "New note" : "Jauna piezīme",
+    "Action" : "Darbība",
+    "All notes" : "Visas piezīmes",
+    "Categories" : "Kategorijas",
+    "No notes yet" : "Nav nevienas piezīmes",
+    "Details" : "Detaļas",
+    "Delete note" : "Dzēst piezīmi",
+    "Remove from favorites" : "Noņemt no izlases",
+    "Add to favorites" : "Pievienot izlasei",
+    "Edit" : "Rediģēt",
+    "Preview" : "Priekšskatīt",
+    "Today" : "Šodien",
+    "Yesterday" : "Vakar",
+    "This week" : "Šonedēļ",
+    "This month" : "Šis mēnesis",
+    "Category" : "Kategorija",
+    "Uncategorized" : "Bez kategorijas",
+    "_%n word_::_%n words_" : ["%n words","%n vārdi","%n vārdi"],
+    "Updating settings has failed." : "Iestatījumu atjaunināšana neizdevās.",
+    "Tasks" : "Uzdevumi"
+},
+"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");
